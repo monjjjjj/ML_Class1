@@ -20,10 +20,11 @@ Note for ML
      gradient descent會有無法找到global minima的問題！
      
   ＊ 在機器學習中，需要自己設定的參數稱為hyperparameters
+  
   ＊ 基於對問題的理解，來做模型的修改
  
 ## 如何減少Model Bias -> 使用Flexible Model
-  different w,b,c -> different sigmoid function -> different piecewise function -> different continuous function
-  要用多少個sigmoid function是由自己決定
+  1. different w,b,c -> different sigmoid function -> different piecewise function -> different continuous function
+  2. 要用多少個sigmoid function是由自己決定
   
   
