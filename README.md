@@ -18,6 +18,7 @@ Note for ML
   3. Optimization: 找出使loss最小的weight跟bias，使用gradient descent的方法
      Learning rate的大小由自己來決定，若Learning rate大一點的話，參數變化的量就會很大，學習的速度可能較快
      gradient descent會有無法找到global minima的問題！
+     
   ＊ 在機器學習中，需要自己設定的參數稱為hyperparameters
   ＊ 基於對問題的理解，來做模型的修改
  
