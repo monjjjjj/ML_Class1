@@ -12,15 +12,22 @@
 ## How to find a function?
  機器學習找函式的過程有三步驟：
   1. 寫出一個帶有未知參數的函式: 未知參數是based on domain knowledge，可以從data去得出
-  Function with unknown parameters = model
+     
+         Function with unknown parameters = model
   2. Define loss from training data: Loss值可以去判斷所挑選的weight跟bias挑的好不好
-     L有MAE(mean absolute error)、MSE(mean square error)等
-     計算Loss所畫出來的等高線圖 -> error surface
+
+         L有MAE(mean absolute error)、MSE(mean square error)等
+
+         計算Loss所畫出來的等高線圖 -> error surface
   3. Optimization: 找出使loss最小的weight跟bias，使用gradient descent的方法
-     Learning rate的大小由自己來決定，若Learning rate大一點的話，參數變化的量就會很大，學習的速度可能較快
-     gradient descent會有無法找到global minima的問題！
-     每更新一次參數 -> update
-     see all the batches once = 1 epoch (batch size是由自己所決定的)
+          
+         Learning rate的大小由自己來決定，若Learning rate大一點的話，參數變化的量就會很大，學習的速度可能較快
+         
+         gradient descent會有無法找到global minima的問題！
+         
+         每更新一次參數 -> update
+         
+         see all the batches once = 1 epoch (batch size是由自己所決定的)
      
   * 在機器學習中，需要自己設定的參數稱為hyperparameters（batch size, learning rate, numbers of sigmoid function）
   * 基於對問題的理解，來做模型的修改
