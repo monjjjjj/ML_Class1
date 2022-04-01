@@ -1,5 +1,5 @@
 # ML_Class1
-Note for ML
+
 機器學習 ＝ 讓機器具備找函式的能力
 
 ## Different types of functions 機器學習的兩大類任務
@@ -21,9 +21,8 @@ Note for ML
      每更新一次參數 -> update
      see all the batches once = 1 epoch (batch size是由自己所決定的)
      
-  ＊ 在機器學習中，需要自己設定的參數稱為hyperparameters（batch size, learning rate, numbers of sigmoid function）
-  
-  ＊ 基於對問題的理解，來做模型的修改
+  * 在機器學習中，需要自己設定的參數稱為hyperparameters（batch size, learning rate, numbers of sigmoid function）
+  * 基於對問題的理解，來做模型的修改
   
   * overfitting: Better on training data, worse on unseen data 
  
