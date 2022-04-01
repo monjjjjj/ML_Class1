@@ -6,7 +6,7 @@
  1. Regression -> 函式的輸出是一個數值
  2. Classification -> 機器要從眾多類別中選出正確的答案
     如：G-mail去偵測信件是否為垃圾郵件
- --------------------------------------------------
+ ****
  3. Structured Learning -> 要機器學會創造（畫一張圖、寫一篇文章等）
 
 ## How to find a function?
