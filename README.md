@@ -12,7 +12,7 @@
 ## How to find a function?
  機器學習找函式的過程有三步驟：
   1. 寫出一個帶有未知參數的函式: 未知參數是based on domain knowledge，可以從data去得出
-     Function with unknown parameters = model
+  Function with unknown parameters = model
   2. Define loss from training data: Loss值可以去判斷所挑選的weight跟bias挑的好不好
      L有MAE(mean absolute error)、MSE(mean square error)等
      計算Loss所畫出來的等高線圖 -> error surface
